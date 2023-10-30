@@ -270,6 +270,58 @@ main section .dec > div > a:hover {
   box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
 }
 
+/* resumption main */
+main section .contanier {
+  text-align: center;
+}
+main section .contanier > h1 {
+  font-size: clamp(34px, 5vw, 44px);
+  margin-bottom: 0;
+}
+main section .contanier > p {
+  color: #a3a3a3;
+  font-size: clamp(14px, 5vw, 15px);
+  font-weight: 300;
+  line-height: 1.625em;
+}
+
+main section .contanier:nth-child(2) > .rows > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.rows {
+  display: flex;
+  height: max-content;
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+main section .contanier > .rows > div {
+padding: 30px 50px;
+}
+
+/* blue section css */
+section .contanier > .blue {
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  height: max-content;
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+section .contanier > .blue > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+section .contanier > .blue > div > h1 {
+  margin: 0;
+}
+
 /* responsiv */
 @media screen and (max-width: 768px) {
   .col-xs-1 {
